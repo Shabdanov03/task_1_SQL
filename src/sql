@@ -1,0 +1,17 @@
+TASK 1:
+
+1. SELECT CustomerName FROM Customers
+2. SELECT DISTINCT Country FROM Customers
+3. SELECT DISTINCT Country,count(*) FROM Customers GROUP BY Country
+4. SELECT * FROM Customers WHERE Country = 'Mexico'
+5. SELECT Address,City FROM Customers WHERE CustomerID	= 1
+6. SELECT * FROM Customers WHERE Country = 'Germany' OR Country = 'Spain'
+7. SELECT * FROM Customers ORDER BY Country
+   SELECT * FROM Customers ORDER BY CustomerName DESC
+8. SELECT * FROM Customers WHERE Address = NULL
+9. SELECT min(Price)  FROM [Products]
+10. SELECT count(*)  FROM [Products]
+11. SELECT * FROM [Customers] WHERE CustomerName LIKE 'A%'
+12. SELECT * FROM [Customers] WHERE Country = 'Germany' OR Country = 'France' OR Country = 'UK'
+13. SELECT * FROM Customers,Suppliers WHERE Customers.Country = Suppliers.Country 
+14. SELECT * FROM [Orders] WHERE OrderDate BETWEEN '1996-01-01' AND '1996-12-31'
